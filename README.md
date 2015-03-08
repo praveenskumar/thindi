@@ -13,8 +13,8 @@ There are many who still have quench for traditional food items.
 
 This project aims to bridge a gap between people who love preparing traditional dishes and food items with people who love to eat those food items.
 
-Technology Stack Used:
-MeteorJS
-Mongo DB
-Facebook Service for User Management
-Yoeman
+###Technology Stack Used:
+1. MeteorJS
+2. Mongo DB
+3. Facebook Service for User Management
+4. Yoeman
