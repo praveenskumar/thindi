@@ -1,20 +1,18 @@
 <template name="login">
 <br>
 <br>
-<div id="login">
+<div id="login" style="background:url('/images/collage.png');opacity:20px;">
     <form name="loginform" id="login-form">
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <h2>thindi | relish home food</h2>
-          </div>
-        </nav>
-        <br>
-        <p>
-             To Buy /Sell 
-             <br>
-             <br>
+        <div class="panel panel-default">
+		  <div class="panel-body">
+		    <p class="text-center">
+		    	A platform to buy and sell home made food items.
+		    	<br>
+		    	Login to Buy / Sell
+		    </p>
              {{> loginButtons}}
-        </p>
+		  </div>
+		</div>
     </form>
 </div>
 </template>

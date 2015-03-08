@@ -4,27 +4,39 @@
 <div id="sell">
 
     <form name="camera">
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <h2>add thindi</h2>
-          </div>
-        </nav>
-        <br>
-        <p>
-          <br>
-           <input type="text" name="thindi" placeholder="Item Name" />
-          <br>
-          <textarea rows="3" name="description" placeholder="A crisp description about the item."></textarea>
-          <br>
-          <p cols="3" class="click">
-            <i class="icon-camera"></i>
-          </p>
-          <p cols="3" class="gallery">
-            <i class="icon-th"></i>
-          </p> 
-          <br>
-          <button class="btn btn-success" name="sell" type="submit"> SELL </button>
-        </p>
+    <div class="panel panel-danger">
+    <div class="panel-header">
+    <h3>Did you cook something??</h3>
+    <h4>Want to Sell?? Click a picture, write description and add to store.. Boom!!</h4>
+    </div>
+    <div class="panel-body">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <div>
+              <input type="text" class="form-control" placeholder="item name">
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div>
+            <textarea rows="3" class="form-control" name="description" placeholder="A crisp description about the item."></textarea>  
+            </div>
+          </li>
+          <li class="list-group-item">
+            <ul class="list-inline">
+              <li class="click">
+                <i class="glyphicon glyphicon-camera"></i>      
+              </li>
+              <li class="gallery">
+                <i class="glyphicon glyphicon-th"></i>      
+              </li>
+              <li>
+                <i class="glyphicon glyphicon-ok" name="sell" type="submit"></i>
+              </li>
+            </ul>
+          </li>
+          </ul>
+    </div>
+    </div>
     </form>
 </div>
       

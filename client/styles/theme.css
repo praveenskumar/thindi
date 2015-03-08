@@ -7,9 +7,12 @@ form, #block, #sell{
     padding: 4em 10px 10px;
     
 }
-
 .navbar{
 background-color: #1abc9c;
 color:white;
 }
 
+.glyphicon {
+    font-size: 25px;
+    color:#1abc9c;
+}

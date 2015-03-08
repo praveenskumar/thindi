@@ -1,20 +1,16 @@
 <template name="home">
 <br>
 <br>
+<br>
+<div style="background:url('/images/collage.png');">
 <div id="choose">
-  <div id='block'>
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container" stle="position:center">
-            <h2>thindi | relish home food</h2>
-          </div>
-        </nav>
-        <br>
-    <div>
-    
-     <a href="{{ pathFor 'buy' }}"><button type="button" class="btn btn-info">BUY</button></a>
-     <a href="{{ pathFor 'sell' }}"><button type="button" class="btn btn-warning">SELL</button></a>
-    </div>
+<div id='block'>
+   <br>
+    <a href="{{ pathFor 'buy' }}"><button type="button" class="btn btn-primary">BUY</button></a>
+    &nbsp;
+    &nbsp;
+    <a href="{{ pathFor 'sell' }}"><button type="button" class="btn btn-danger">SELL</button></a>
   </div>
 </div>
-
+</div>
 </template>

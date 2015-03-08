@@ -22,8 +22,8 @@ Template.sell.events({
   },
   
   'submit .camera':function(event){
-    var thindi = event.target.thindi;
-    var desc = event.target.description;
+    var thindi = event.target.text;
+    var desc = event.target.textarea;
     console.log(thindi);
   },
 

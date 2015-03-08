@@ -1,6 +1,9 @@
 Router.route('/',function() {
     this.render('layout');
   });
+Router.route('/home',function() {
+    this.render('home');
+  });
 
 Router.route('/sell', function () {
   this.render('sell');
