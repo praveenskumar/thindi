@@ -1,4 +1,4 @@
-# thindi(ತಿಂಡ)
+# thindi(ತಿಂಡಿ )
 ------------
 Relish traditional home made food.
 
