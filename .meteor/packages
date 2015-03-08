@@ -1,0 +1,8 @@
+standard-app-packages
+iron:router
+accounts-facebook
+accounts-ui
+service-configuration
+bootstrap
+mdg:camera
+mdg:geolocation
